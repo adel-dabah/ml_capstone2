@@ -64,7 +64,16 @@ This project utilizes a dataset derived from three sources:
 ## Model Deployment 
 
 ## Dependencies 
+The code has the following dependencies: 
+pandas /tensorflow /matplotlib /numpy 
+
+For Activating Environment: Run pipenv shell
 
 ## Dockerfile 
+To build and run docker container : 
+
+sudo docker buildx build -t mri_test_1 .
+
+sudo docker run -it --rm --entrypoint=bash mri_test_1 
 
 ## Cloud Deployment  
