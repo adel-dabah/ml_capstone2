@@ -41,8 +41,22 @@ This project utilizes a dataset derived from three sources:
 
 ---
 ## EDA 
+![image](https://github.com/user-attachments/assets/86cb2b22-77cf-4981-9642-72c628a40e5d)
+
 
 ## Model and Training
+### Transfer Learning (using Convolutional layers of EfficientNetB0 pre-trained model )
+![image](https://github.com/user-attachments/assets/00c35524-04c6-4e09-ad42-ac913f70d4ca)
+
+### Adjusting learning rate 
+![image](https://github.com/user-attachments/assets/62a2fbdb-7823-4bca-b516-e5609956c3cf)
+
+### Adjusting the dropout percentage 
+![image](https://github.com/user-attachments/assets/a96572de-ca7b-4e5c-a492-6f0014928dd3)
+
+### Tuning the size of inner layers 
+![image](https://github.com/user-attachments/assets/e795157a-605f-47ec-a60a-c9aac086c05e)
+
 
 ## Model Deployment 
 
