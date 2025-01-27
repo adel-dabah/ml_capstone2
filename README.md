@@ -1,4 +1,6 @@
-# Capstone2 Project for MLZoomcamp 2024 
+# Capstone2 Project for MLZoomcamp 2024 (Brain Tumors Classification)
+![image](https://github.com/user-attachments/assets/632d114f-ede0-487c-a107-15f8ba2929f7)
+![image](https://github.com/user-attachments/assets/a97d9b71-a717-4080-9089-9ddbfb522427)
 
 ## Overview
 
@@ -37,7 +39,15 @@ This project utilizes a dataset derived from three sources:
   - Pituitary tumor
 - Images for the "no tumor" class were sourced from the Br35H dataset.
 
-#### Dataset Adjustments:
-It was identified that the glioma class in the SARTAJ dataset had inconsistencies. To address this, images from the Figshare dataset replaced the problematic samples. This refinement ensures higher quality and reliability for training and evaluation purposes.
-
 ---
+## EDA 
+
+## Model and Training
+
+## Model Deployment 
+
+## Dependencies 
+
+## Dockerfile 
+
+## Cloud Deployment  
