@@ -57,6 +57,9 @@ This project utilizes a dataset derived from three sources:
 ### Tuning the size of inner layers 
 ![image](https://github.com/user-attachments/assets/e795157a-605f-47ec-a60a-c9aac086c05e)
 
+### Adding checkpoints and increasing the size of the images input_size to 400 
+![image](https://github.com/user-attachments/assets/63dec89b-f4e3-43be-9c98-034e4d97ca81)
+![image](https://github.com/user-attachments/assets/bb936c74-0e6f-4644-8180-516b0356a453)
 
 ## Model Deployment 
 
