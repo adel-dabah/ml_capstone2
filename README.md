@@ -85,10 +85,14 @@ sudo docker build -t mri_model_d .
 
 sudo docker run -it --rm -p 8080:8080  mri_model_d
 
+To test the docker image run: 
+
 python3 test_docker.py 
 
 ## AWS Cloud Deployment
 The tensorflow lite model is depoyed using AWS lanbda service 
+
+Code is described in the lambda_function.py
 
 URL: https://f0dhzqffpk.execute-api.eu-north-1.amazonaws.com/test_stage/predict
 
