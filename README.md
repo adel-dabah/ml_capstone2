@@ -66,15 +66,22 @@ This project utilizes a dataset derived from three sources:
 
 ## Dependencies 
 The code has the following dependencies: 
-pandas /tensorflow /matplotlib /numpy 
+tensorflow/ keras /matplotlib /numpy 
 
 For Activating Environment: Run pipenv shell
 
 ## Dockerfile 
 To build and run docker container : 
 
-sudo docker buildx build -t mri_test_1 .
+sudo docker build -t mri_model_d .
 
-sudo docker run -it --rm --entrypoint=bash mri_test_1 
+sudo docker run -it --rm -p 8080:8080  mri_model_d
 
-## Cloud Deployment
+python3 test_docker.py 
+
+## AWS Cloud Deployment
+The tensorflow lite model is depoyed using AWS lanbda service 
+URL: https://f0dhzqffpk.execute-api.eu-north-1.amazonaws.com/test_stage/predict
+to test the AWS deployement use : 
+
+python3 test_AWS_deployement.py 
