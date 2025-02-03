@@ -23,6 +23,14 @@ This project explores the use of **Convolutional Neural Networks (CNNs)** for:
 
 As part of MLzoomcamp, we developed a CNN model to achieve efficiency and accuracy by adjusting and tuning the model's parameters.
 
+mri_deepL_classification_1 files for training and tuning model's parameters 
+
+MRI_v1_07_0.923.keras is the saved tensorflow model
+
+mri.model.tflite is the tensorflow lite model delpoyed in AWS service
+
+Predict and predict_tf_lite for the above models respectively 
+
 ---
 
 ## Dataset Information
@@ -81,7 +89,9 @@ python3 test_docker.py
 
 ## AWS Cloud Deployment
 The tensorflow lite model is depoyed using AWS lanbda service 
+
 URL: https://f0dhzqffpk.execute-api.eu-north-1.amazonaws.com/test_stage/predict
-to test the AWS deployement use : 
+
+To test the AWS deployement use : 
 
 python3 test_AWS_deployement.py 
